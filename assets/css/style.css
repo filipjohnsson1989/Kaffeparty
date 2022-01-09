@@ -1,5 +1,11 @@
 body {
     /* background-color: black !important; */
+    background-image: url('../images/black-ge5f2eeff0_1920_2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: grey;
+
 }
 
 .bi::before {
@@ -9,17 +15,16 @@ body {
 /* Jumbotron */
 
 .jumbotron-all {
-    background: url('../images/pexels-igor-haritanovich-1695052.jpg') no-repeat fixed;
+    background-image: url('../images/pexels-igor-haritanovich-1695052.jpg');
 }
-
 
 .jumbotron {
-    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.1);
-    height: auto;
-    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
-.bd-placeholder-img {
+/* carousel placeholder*/
+/* .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
     -webkit-user-select: none;
@@ -29,4 +34,42 @@ body {
 
 .bd-placeholder-img-lg{
     font-size: 3.5rem;
+} */
+
+.img {
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.1);
+}
+
+.img-slider1 {
+    background-image: url('../images/pexels-negative-space-34085.jpg');
+}
+
+.img-slider2 {
+    background-image: url('../images/pexels-negative-space-134577.jpg');
+}
+
+.img-slider3 {
+    background-image: url('../images/pexels-toni-cuenca-585750.jpg');
+}
+
+
+.img-about {
+    background-image: url('../images/pexels-afta-putta-gunawan-683039.jpg');
+}
+
+.default-height {
+    height: 400px;
+}
+
+.overlap {
+    margin-left: 0px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 576px) {
+    .overlap {
+        margin-left: -15vw;
+    }
 }
