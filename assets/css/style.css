@@ -12,6 +12,10 @@ body {
     vertical-align: -0.125em;
 }
 
+.container-start{
+    padding-top: 3.5rem !important;
+}
+
 /* Jumbotron */
 
 .jumbotron-all {
@@ -72,4 +76,11 @@ body {
     .overlap {
         margin-left: -15vw;
     }
+}
+
+
+.img-section1{
+    background-image: url('../images/mike-kenneally-zlwDJoKTuA8-unsplash.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
