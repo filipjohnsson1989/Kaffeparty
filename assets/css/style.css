@@ -22,6 +22,10 @@ body {
     background-image: url('../images/pexels-igor-haritanovich-1695052.jpg');
 }
 
+.jumbotron-about-us {
+    background-image: url('../images/pexels-toni-cuenca-585750.jpg');
+}
+
 .jumbotron {
     background-attachment: fixed;
     background-repeat: no-repeat;
